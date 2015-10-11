@@ -1,8 +1,5 @@
 package com.rizafu.imagecrop.customview;
 
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -12,7 +9,6 @@ import android.graphics.Paint;
 import android.graphics.PointF;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
-
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
 import android.os.Bundle;
@@ -26,6 +22,9 @@ import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.ImageView;
 import android.widget.Scroller;
+
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 
 /**
  * base on : https://github.com/tcking/ImageCroppingView
@@ -942,15 +941,14 @@ public class ImageCroppingView extends ImageView{
 	 * @param canvas
 	 */
 	 @Override
-		protected void onDraw(Canvas canvas)
-		{
+	 protected void onDraw(Canvas canvas){
 			super.onDraw(canvas);
 
 			int x = this.getWidth();
 			int y = this.getHeight();
 			Paint paint = new Paint();
-			paint.setColor(0xaa000000);
-			//w=(float) (Math.min(x, y)*0.7); default
+			paint.setColor(0xFF000000);
+//			w=(float) (Math.min(x, y)*0.7); // default
 			w=(float) (Math.min(x, y)*0.99); // croped line width fill parent
 			x0=(x-w)/2;
 			y0=(y-w)/2;

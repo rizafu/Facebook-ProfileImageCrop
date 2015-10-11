@@ -4,11 +4,18 @@
     android:layout_height="match_parent"
     tools:context=".MyActivity">
 
+	<!--<com.rizafu.imagecrop.customview.Cover-->
+		<!--android:id="@+id/Cover"-->
+		<!--android:layout_width="match_parent"-->
+		<!--android:layout_height="match_parent"-->
+		<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+		<!--app:coverType="Type_0"></com.rizafu.imagecrop.customview.Cover>-->
 	<com.rizafu.imagecrop.customview.ImageCroppingView
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:id="@+id/imageCroppingView"
 		android:layout_centerVertical="true"
 		android:layout_centerHorizontal="true"
+		android:scaleType="centerCrop"
 		android:background="@android:color/white"/>
 </RelativeLayout>

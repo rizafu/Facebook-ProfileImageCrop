@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<declare-styleable name="Cover">
+		<attr name="text" format="string"/>
+		<attr name="titleColor" format="color"/>
+		<attr name="coverType" format="integer">
+			<enum name="Type_0" value="0"/>
+			<enum name="Type_1" value="1"/>
+			<enum name="Type_2" value="2"/>
+			<enum name="Type_3" value="3"/>
+			<enum name="Type_4" value="4"/>
+			<enum name="Type_5" value="5"/>
+			<enum name="Type_6" value="6"/>
+			<enum name="Type_7" value="7"/>
+			<enum name="Type_8" value="8"/>
+			<enum name="Type_9" value="9"/>
+		</attr>
+	</declare-styleable>
+</resources>

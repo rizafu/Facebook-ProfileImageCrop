@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="/Users/RizaFu/wokrspace/AndroidStudio/imagecrop/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-bca9cd8c8082330ef7549e0398af852faae531fd.jar"
-        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jar="/Users/RizaFu/Wokrspace/GitHub/imageCropLikeFb/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/Users/RizaFu/Wokrspace/GitHub/imageCropLikeFb/app/build/intermediates/pre-dexed/debug/classes-93fc338d1584337b91f06840564b7bfed724aa38.jar" />
+    </item>
     <item
-        dex="/Users/RizaFu/wokrspace/AndroidStudio/imagecrop/app/build/intermediates/pre-dexed/debug/butterknife-5.1.1-6e410a54e8354906bf2e42a3b0d833c33ec4da66.jar"
         jar="/Users/RizaFu/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/5.1.1/b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8/butterknife-5.1.1.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8"/>
+        sha1="b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8">
+        <dex dex="/Users/RizaFu/Wokrspace/GitHub/imageCropLikeFb/app/build/intermediates/pre-dexed/debug/butterknife-5.1.1-6e410a54e8354906bf2e42a3b0d833c33ec4da66.jar" />
+    </item>
     <item
-        dex="/Users/RizaFu/wokrspace/AndroidStudio/imagecrop/app/build/intermediates/pre-dexed/debug/classes-7cd58606b9bfcc59f0e5e4a9cc58c909c8df8daf.jar"
-        jar="/Users/RizaFu/wokrspace/AndroidStudio/imagecrop/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jar="/Users/RizaFu/Wokrspace/GitHub/imageCropLikeFb/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/Users/RizaFu/Wokrspace/GitHub/imageCropLikeFb/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-e2dafa94cdcd98f656e2f8cdb6fbe06e6c750db0.jar" />
+    </item>
     <item
-        dex="/Users/RizaFu/wokrspace/AndroidStudio/imagecrop/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-43d2d81cd9cc909e8adb710631c98159558dd8c8.jar"
-        jar="/Users/RizaFu/wokrspace/AndroidStudio/imagecrop/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jar="/Users/RizaFu/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/Users/RizaFu/Wokrspace/GitHub/imageCropLikeFb/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-fc610f74781775f1b33b9e961f4e6e5536af21fd.jar" />
+    </item>
 
-</pre-dex-items>
+</items>
