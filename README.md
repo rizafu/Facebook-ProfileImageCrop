@@ -1,7 +1,7 @@
-imageCropLikeFb
+Facebook-ProfileimageCrop
 ===============
 
-image cropping like FB app
+Profile image cropping like FB app
 
 base on : https://github.com/tcking/ImageCroppingView
 
